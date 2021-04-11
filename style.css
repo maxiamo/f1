@@ -1,0 +1,1245 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
+body{
+margin:0px;
+    padding:0px;
+   
+}
+
+
+.topnav {
+  overflow: hidden;
+ z-index: 10;
+
+    margin-top:0px;
+    margin-bottom:30px;
+  background-color: black;
+    transition: all 0.2s;
+}
+.f1header{
+    width:60%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+   font-size: 30px;
+    
+}
+.f1header>h1{
+    margin: auto;
+}
+header{
+    margin-bottom: 0px;
+    height: auto;
+  
+    
+}
+header>h1{
+   text-align: center;
+   position: relative;
+    top:5px;
+    
+}
+
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    transition: all 0.2s;
+}
+
+.topnav a:hover {
+  background-color:red;
+  color: white;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+.champion{
+    flex-direction: column;
+}
+.top3pilots{
+    flex-direction: column;
+}
+.hiddenstick{
+   opacity: 0;
+    transition: all 0.3s;
+}
+.stick{
+    
+    flex-direction: column;
+   
+    top:25px;
+   margin-top:0px;
+    width:250px;
+    height:300px;
+    background-color: red;
+    border-radius: 25px;
+   z-index: 10px;
+    color:white;
+    padding-top:-0px;
+    margin-right:0px;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.champ{
+    margin: auto;
+        width:500px;
+    height: 280px;
+    background-image: url(champ.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.3s;
+    
+}
+.downli{
+    transition: all 0.2s;
+}
+.champ:hover{
+    transform: scale(1.05);
+}
+.champinfo{
+    flex-direction: column;
+    margin: auto;
+            width:550px;
+    text-align: left;
+}
+.toplewis{
+    flex-direction: column;
+    margin: auto;
+}
+.toplewisimg{
+   
+    width:550px;
+    height: 400px;
+    background-image: url(toplewis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s;
+}
+.toplewisimg:hover{
+    transform: scale(1.1);
+    
+}
+.uptoplewis{
+   
+    overflow: hidden;
+     transition: transform 0.3s;
+}
+
+.topbottas{
+    flex-direction: column;
+    margin: auto;
+}
+.topbottasimg{
+   
+    width:400px;
+    height: 500px;
+    background-image: url(topbottas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s;
+}
+.topbottasimg:hover{
+    transform: scale(1.1);
+    
+}
+.uptopbottas{
+   
+    overflow: hidden;
+     transition: transform 0.3s;
+}
+.topmax{
+    flex-direction: column;
+    margin: auto;
+}
+.topmaximg{
+   background-position: top;
+    width:400px;
+    height: 500px;
+    background-image: url(topmax.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s;
+    
+}
+.topmaximg:hover{
+    transform: scale(1.1);
+    
+}
+.uptopmax{
+   
+    overflow: hidden;
+     transition: transform 0.3s;
+}
+.upstick{
+     position: sticky;
+    top:25px;
+    width:20%;
+    background-color: aqua;
+    margin-right: 5%;
+    margin-left:auto;
+    
+    justify-content: center;
+}
+.lewisinfo{
+    width:500px;
+    text-align: left;
+    flex-direction: column;
+}
+.bottasinfo{
+    width:500px;
+    text-align: left;
+     flex-direction: column;
+}
+.maxinfo{
+    width:500px;
+    text-align: left;
+     flex-direction: column;
+}
+.st{
+    color:white;
+    text-decoration: none;
+    border-top: 2px solid darkred;
+    padding-top: 10px;
+transition: all 0.2s;
+}
+
+.st:hover{
+    background-color: black;
+    border-radius: 50px;
+      padding: 10px;
+}
+.top3team{
+    margin-top:-280px;
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+   
+    
+padding:15px;
+   
+    transition: all 0.2s;
+  
+
+ color:white;
+    z-index: -5;
+     background-color: red;
+     opacity: 1;
+}
+.hoddenstick{
+    margin-bottom: 20px;
+}
+
+.facebook{
+    background-image: url(Facebook_Logo.png);
+    width:50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+       background-repeat: no-repeat;
+    margin: auto;
+      margin-top:50px;
+    transition: transform 0.3s;
+}
+.youtube{
+    background-image: url(yyou.png);
+    width:50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+      margin-top:50px;
+    transition: transform 0.3s;
+}
+.twitter{
+       background-image: url(twitter_PNG9.png);
+    width:50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top:50px;
+    transition: transform 0.3s;
+}
+.facebook:hover{
+    transform: scale(1.2);
+}
+.twitter:hover{
+    transform: scale(1.2);
+}
+.youtube:hover{
+    transform: scale(1.2);
+}
+    .ftlink{
+        
+                margin:auto;
+        
+        
+
+    }
+    .footerlink{
+             margin:auto;  
+        
+
+    }
+.fullname{
+    font-weight: bolder;
+    justify-content: flex-start;
+    margin-top: 10px;
+   flex-direction: column;
+    width:150px;
+    text-align: left;
+       position: relative;
+    left: 50px;
+   
+}
+.secname{
+   justify-content: flex-start;
+    margin-top: 10px;
+  
+    
+   flex-direction: column;
+    width:250px;
+    text-align: left;
+   position: relative;
+    left: 70px;
+    
+}
+.points{
+    display: flex;
+    width:560px;
+    margin-top: 10px;
+    text-align: left;
+    position: relative;
+margin: auto;
+}
+.mercedesteam{
+   
+    flex-direction:column;
+}
+.ferrariteam{
+    flex-direction: column;
+}
+.redbullteam{
+    flex-direction: column;
+}
+.secondm{
+ 
+   padding-bottom: 10px;
+}
+.info{
+    margin-top: 10px;
+}
+.secondd{
+ 
+   padding-bottom: 30px;
+}
+.mercedes{
+    margin: auto;
+    width:250px;
+    height: 250px;
+    background-size:cover;
+    background-image: url(mercedes-benz-9-logo-png-transparent.png);
+    transition: transform 0.2s;
+   
+}
+.ferrari{
+    margin: auto;
+    width:250px;
+    height: 250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(ferrari.png);
+    transition: transform 0.2s;
+   
+}
+.redbull{
+    margin: auto;
+    width:250px;
+    height: 250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(Red_Bull_Racing_logo_Formula_One_Team.png);
+    transition: transform 0.2s;
+   
+}
+.lewis{
+    
+    width:280px;
+    height: 500px;
+    margin:0px;
+    padding:0px;
+      border-right:2px solid gray;
+     overflow: hidden;
+}
+.lewisimg{
+     
+    width:350px;
+    height:350px;
+margin:0px;
+    padding:0px;
+    background-image: url(lewis.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+   transition: transform 0.2s;
+    background-position: top;
+    
+}
+.max{
+    
+    width:280px;
+    height: 500px;
+    margin:0px;
+    padding:0px;
+      border-right:2px solid gray;
+   
+     overflow: hidden;
+}
+.maximg{
+      overflow: hidden;
+    width:350px;
+    height:350px;
+margin:0px;
+    padding:0px;
+    background-image: url(verstaappen.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+   transition: transform 0.2s;
+    background-position: top;
+    
+}
+
+.vettel{
+    
+    width:280px;
+    height: 500px;
+    margin:0px;
+    padding:0px;
+      border-right:2px solid gray;
+     overflow: hidden;
+}
+.vettelimg{
+     
+    width:350px;
+    height:350px;
+margin:0px;
+    padding:0px;
+    background-image: url(vettel.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+   transition: transform 0.2s;
+    background-position: top;
+}
+
+     .ferrariteam{
+    position: relative;
+ 
+    flex-direction: column;
+}
+.top3team{
+    flex-direction: column;
+}
+.valtteri{
+    
+    width:280px;
+    height: 500px;
+    margin:0px;
+    padding:0px;
+          overflow: hidden;
+}
+.charles{
+    
+    width:280px;
+    height: 500px;
+    margin:0px;
+    padding:0px;
+          overflow: hidden;
+}
+.charlesimg{
+  display: block;
+    width:350px;
+    height:350px;
+margin:0px;
+    padding:0px;
+    background-image: url(leclerc.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    transition: transform 0.2s;
+    background-position: top;
+}
+.alb{
+    
+    width:280px;
+    height: 500px;
+    margin:0px;
+    padding:0px;
+          overflow: hidden;
+}
+.albimg{
+  display: block;
+    width:350px;
+    height:350px;
+margin:0px;
+    padding:0px;
+    background-image: url(albon.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    transition: transform 0.2s;
+    background-position: top;
+}
+.valtteriimg{
+  display: block;
+    width:350px;
+    height:350px;
+margin:0px;
+    padding:0px;
+    background-image: url(valtteri.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    transition: transform 0.2s;
+    background-position: top;
+}
+
+
+.charlesimg:hover{
+    transform: scale(1.05);
+
+}
+.albimg:hover{
+    transform: scale(1.05);
+
+}
+.vettelimg:hover{
+    transform: scale(1.05);
+
+}
+.lewisimg:hover{
+    transform: scale(1.05);
+
+}
+.maximg:hover{
+    transform: scale(1.05);
+
+}
+.valtteriimg:hover{
+    transform: scale(1.05);
+
+}
+.mercedes:hover{
+    transform: scale(1.1);
+}
+.ferrari:hover{
+    transform: scale(1.1);
+}
+.redbull:hover{
+    transform: scale(1.1);
+}
+.mercpilots{
+    border:2px grey solid;
+    flex-direction: rfow;
+    widows:800px;
+    margin: auto;
+}
+.ferraripilots{
+    border:2px grey solid;
+    flex-direction: rfow;
+    widows:800px;
+    margin: auto;
+}
+.number{
+    position: relative;
+  
+ height: 0px;
+    width:0px;
+    top: 370px;
+    left:-230px;
+    font-size: 50px;
+    margin:0px;
+    padding:0px;
+}
+.valname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-230px;
+}
+.valsurname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-130px;
+}
+.lewname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-230px;
+}
+.lewsurname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-160px;
+} 
+.maxname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-230px;
+}
+.maxsurname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-175px;
+}
+.charlesname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-230px;
+}
+.charlessurname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-155px;
+}
+.albname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-230px;
+}
+.albsurname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-130px;
+}
+.vettelname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-230px;
+}
+.vettelsurname{
+    height: 0px;
+    width:0px;
+    position: relative;
+    margin:0px;
+    padding:0px;
+      top: 440px;
+    left:-130px;
+}
+img{
+    border: 0px solid;
+}
+
+.mainlink{
+    text-decoration: none;
+    color:black;
+    transition: all 0.2s;
+     border-bottom: 4px #FFFFFF solid;
+    padding-bottom: 10px;
+    
+}
+
+.mainlink:hover{
+    border-bottom: 3px red solid;
+     padding-bottom: 0px;
+}
+li>a:hover{
+    border-bottom: 2px red solid;
+     padding-bottom: 0px;
+}
+
+
+header>h1{
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 60px;
+
+   
+     transition: all 0.2s;
+}
+.red{
+    opacity: 0;
+    width:100%;
+    height:80px;
+margin-top:-100px;
+    background-color: red;
+     transition: all 0.3s;
+}
+
+@media(max-width:650px){
+
+    footer{
+    margin-top:36px;
+    
+}
+    header{
+          margin-top: 0px;
+        background-position: top;
+   
+        opacity: 1;
+       transition: all 0.3s;
+    }
+    .red{
+        opacity: 1;
+    }
+    header>h1{
+        text-align: center;
+   
+         transition: all 0.3s;
+    
+}
+    .top3pilots{
+        margin: auto;
+        flex-direction: column;
+    }
+    .pilotssize{
+        
+        flex-direction: column;
+        width:300px;
+        height: 3564;
+        margin: 0px;
+            padding:0px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .mercpilots{
+        width:300px;
+        height: 400px;
+    }
+    .lewisimg{
+        height:250px;
+    }
+    .valtteriimg{
+        height:250px;
+    }
+    .lewis{
+        height: 400px;
+    }
+    .valtteri{
+        height: 400px;
+    }
+     .lewisimg{
+        height:250px;
+    }
+    .valtteriimg{
+        height:250px;
+    }
+  
+    .valsurname,.lewsurname{
+          top: 360px;
+    left:-130px;
+    }
+      .valname,.lewname{
+          top: 340px;
+    left:-130px;
+    }
+    .number{
+           top: 270px;
+    left:-130px;
+    }
+    .points{
+        width:300px;
+    }
+    .top3team{
+       
+        padding: 0px;
+        width:300px;
+     justify-content: center;
+          text-align: center;
+        align-content: center;
+    }
+    .info{
+        position: relative;
+        width:300px;
+      left:-50px;
+        padding: 0px;
+      
+    }
+    .ferraripilots{
+        width:300px;
+        height: 400px;
+    }
+    .vettelimg{
+        height:250px;
+       
+    }
+    .charlesimg{
+        height:250px;
+    }
+    .vettel{
+        height: 400px;
+    }
+    .charles{
+        height: 400px;
+    }
+        .maximg{
+        height:250px;
+       
+    }
+    .albimg{
+        height:250px;
+    }
+    .max{
+        height: 400px;
+    }
+    .alb{
+        height: 400px;
+    }
+
+  
+    .vettelsurname,.charlessurname{
+          top: 360px;
+    left:-130px;
+    }
+      .charlesname,.vettelname{
+          top: 340px;
+    left:-130px;
+    }
+       .maxsurname,.albsurname{
+          top: 360px;
+    left:-130px;
+    }
+      .maxname,.albname{
+          top: 340px;
+    left:-130px;
+    }
+    .top3pilots{
+        flex-direction: column;
+        display: flex;
+    padding: 0px;
+        width:300px;
+     justify-content: center;
+          text-align: center;
+        align-content: center;
+    }
+    .lewisinfo{
+        width:300px;
+    }
+    .bottasinfo{
+        width:300px;
+    }
+    .toplewis{
+         
+            display: flex;
+        width:300px;
+     justify-content: center;
+          text-align: center;
+        align-content: center;
+        margin: 0px;
+    }
+      .topbottas{
+              display: flex;
+       padding: 0px;
+        width:300px;
+     justify-content: center;
+          text-align: center;
+        align-content: center;
+    }
+        .topbottasimg{
+                display: flex;
+        width:300px;
+            height: 300px;
+        justify-content: center;
+        margin: auto;
+            background-size: cover;
+    }
+    .toplewisimg{
+            display: flex;
+   width:300px;
+     justify-content: center;
+          text-align: center;
+        align-content: center;
+        margin: 0px;
+        padding:0px;
+    }
+    .topmax{
+            display: flex;
+        width:300px;
+        height: 
+        justify-content: center;
+       margin: 0px;
+              padding: 0px;
+    }
+          .topmaximg{
+                  display: flex;
+         width:300px;
+              height: 300px;
+     justify-content: center;
+          text-align: center;
+        align-content: center;
+        margin: 0px;
+              padding: 0px;
+              background-position: center;
+              background-size: cover;
+    }
+    .maxinfo{
+            display: flex;
+        width:300px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .uptoplewis{
+           width:300px;
+     justify-content: center;
+          text-align: center;
+        align-content: center;
+        margin: 0px;
+    }
+       .uptopmax{
+           width:300px;
+     justify-content: center;
+          text-align: center;
+        align-content: center;
+        margin: 0px;
+    }
+       .uptopbottas{
+           width:300px;
+     justify-content: center;
+          text-align: center;
+        align-content: center;
+        margin: 0px;
+    }
+    .secondd{
+        margin:0px;
+        padding-bottom: 10px;
+    }
+    .champ{
+        width:300px;
+        height: 260px;
+        background-size: cover;
+        background-position: top;
+    }
+    .champinfo{
+        width:300px;
+    }
+    .footer{
+      
+        text-indent: 0px;
+    }
+ 
+
+}
+
+
+@media(max-width:1150px){
+    
+        footer{
+    margin-top:36px;
+    
+}
+    .top3pilots{
+        margin-top:270px;
+        flex-direction: column;
+    }
+    .pilotssize{
+        flex-direction: column;
+    }
+    header{
+   
+    }
+         div{
+     
+       display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
+    .topnav{
+       
+       margin-top:-px;
+    }
+    header{
+        margin-bottom: 0px;
+        position: relative;
+        padding:15px;
+    }
+      .f1header{
+    width:95%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+   font-size: 26px;
+         
+    
+}
+    .f1header>h1{
+font-size: 45px;
+    }
+  
+    .hiddenstick{
+        opacity: 1;
+        height: 100px;
+       flex-direction: column;
+      margin-top:50px;
+        padding: 0px;
+    }
+    .downst{
+      margin: 0px;
+      
+        text-decoration: none;
+        color:black;
+        transition: all 0.2s;
+      
+    }
+    .downli:hover{
+      
+       
+      
+         border-bottom: 2px solid red;
+    }
+    .downli>p{
+        margin:0px;
+         padding:10px;
+    }
+    .stickdown{
+        
+        padding: 0px;
+        margin: 0px;
+    }
+    .h2stick{
+
+         background-color: red;
+        margin: 0px;
+      
+        color:white;
+         flex-direction: column;
+        padding: 5px;
+        
+    }
+    .ulstick{
+        
+      margin-top:60px;
+        width:1150px;
+      
+       
+         flex-direction: column;
+        margin-bottom: -45px;
+    }
+    .downli{
+        
+            border-bottom: 2px solid grey;
+    }
+      body{
+        max-width: 1150px;
+    }
+    .stick,.upstick{
+        opacity: 0;
+        width:0px;
+        height: 0px;
+            transition: all 0s;
+        position: absolute;
+        left:0px;
+        top:0px;
+    }
+    .top3team{
+    position: relative;
+    top:280px;
+      
+}
+    .hiddenstick{
+        opacity: 1;
+        height: 100px;
+        
+       flex-direction: column;
+      margin-top:50px;
+        
+    }
+    header{
+      
+    }
+
+    .stickdown{
+       
+        margin: 0px;
+    }
+    .h2stick{
+
+         background-color: red;
+       
+      margin: 0px;
+        color:white;
+         flex-direction: column;
+        padding: 5px;
+    }
+    .ulstick{
+    padding: 0px;
+       list-style-type: none;
+         flex-direction: column;
+       margin: 0px;
+    }
+    .downli{
+      
+            border-bottom: 2px solid grey;
+    
+    }
+    
+    
+}
+@media(min-width:1150px){
+    .top3pilots{
+        flex-direction: column;
+    
+    }
+    .pilotssize{
+        flex-direction: column;
+    }
+  
+}
+    
+@media(min-width:980px){
+    
+
+       div{
+     
+       display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
+        .mercedesteam{
+    position: relative;
+   
+    flex-direction: column;
+}
+    
+.up{
+    position: relative;
+    top:-60px;
+    display: flex;
+    text-indent: 60px;
+    margin-left:-90px;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+   flex-direction: row;
+    
+}
+
+}
+@media(min-width:1600px){
+    
+  header{
+       
+    }
+
+    div{
+      
+       display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
+    .top3team{
+    position: relative;
+    top:0px;
+}
+.up{
+    position: relative;
+    top:-20px;
+    display: flex;
+    text-indent: 60px;
+    margin-left:-90px;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    
+}
+    
+   .stick{
+    
+    flex-direction: column;
+   
+    top:25px;
+   margin-top:0px;
+    width:350px;
+    height:300px;
+    background-color: red;
+    border-radius: 25px;
+   z-index: 10px;
+    color:white;
+    padding-top:-0px;
+    margin-right:0px;
+    opacity: 1;
+    transition: all 0.3s;
+}
+.stick>p>a{
+    padding-left:40px;
+    padding-right:40px;
+} 
+    .upstick{
+        width:30%;
+        
+    
+    }
+}
+
+@media(min-width:2200px){
+   .upstick{
+        width:30%;
+        justify-content: flex-start;
+    
+    } 
+    
+}
+
